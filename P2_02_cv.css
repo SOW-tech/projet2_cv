@@ -1,0 +1,40 @@
+ 
+.entete p span{
+	border-bottom: 2px solid #FFC107;
+}
+h2 span {
+	color: #FFC107;
+}
+h3 img {
+	height: 50px;
+	width: 50px;
+}
+h3 i  {
+	color: #FFC107;
+}
+
+h3 {
+	border-bottom: 2px solid #FFC107;
+	background: url("puce-2.png");	
+}
+
+h4 {
+	background-color: black;
+	color: #FFC107;
+}
+.hobbie i {
+	padding: 40px;
+	font-size: 30px;
+}   
+.informationpersonnelle{
+	background-color:  #FFC107;
+}
+.informationpersonnelle img {
+	height: 40%;
+	width: 40%
+}
+span.gras {
+	font-weight: bold;   	
+}
+
+

@@ -14,8 +14,7 @@ h3 i  {
 }
 
 h3 {
-	border-bottom: 2px solid #FFC107;
-	background-image: url("images/puce-2.png");	
+	border-bottom: 2px solid #FFC107;	
 }
 
 h4 {
@@ -23,18 +22,31 @@ h4 {
 	color: #FFC107;
 }
 .hobbie i {
-	padding: 40px;
+	padding: 10px;
 	font-size: 30px;
+	border: 2px solid;
+	border-radius: 50%;	
 }   
-.informationpersonnelle{
+div.col-4.informationpersonnelle{
+	padding: 0px;
 	background-color:  #FFC107;
 }
 .informationpersonnelle img {
+	padding: 20px;
 	height: 40%;
 	width: 40%
 }
+
 span.gras {
 	font-weight: bold;   	
 }
+div.col p img {
+	height: 30px;
+	width: 30px;
+}
+.espacelateral {
+	padding: 20px;
+}
+
 
 

@@ -1,7 +1,20 @@
  
+ div.col p img {
+	height: 30px;
+	width: 30px;
+}
+div.col-4.informationpersonnelle{
+	padding: 0px;
+	background-color:  #FFC107;
+}
+
 .entete p span{
 	border-bottom: 2px solid #FFC107;
 }
+
+.espacelateral {
+	padding: 25px;
+} 
 
 h2 span {
 	color: #FFC107;
@@ -28,10 +41,7 @@ h4 {
 	border: 2px solid;
 	border-radius: 50%;	
 }   
-div.col-4.informationpersonnelle{
-	padding: 0px;
-	background-color:  #FFC107;
-}
+
 .informationpersonnelle img {
 	padding: 20px;
 	height: 40%;
@@ -41,13 +51,8 @@ div.col-4.informationpersonnelle{
 span.gras {
 	font-weight: bold;   	
 }
-div.col p img {
-	height: 30px;
-	width: 30px;
-}
-.espacelateral {
-	padding: 25px;
-}
+
+
 
 
 

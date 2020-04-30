@@ -1,9 +1,9 @@
  
  div.col p img {
 	height: 30px;
-	width: 30px;
+	width: auto;
 }
-div.col-4.informationpersonnelle{
+div.informationpersonnelle {
 	padding: 0px;
 	background-color:  #FFC107;
 }
@@ -13,16 +13,18 @@ div.col-4.informationpersonnelle{
 }
 
 .espacelateral {
-	padding: 25px;
+	padding: 35px;
 } 
 
 h2 span {
 	color: #FFC107;
 }
+
 h3 img {
 	height: 50px;
 	width: 50px;
 }
+
 h3 i  {
 	color: #FFC107;
 }
@@ -35,24 +37,31 @@ h4 {
 	background-color: black;
 	color: #FFC107;
 }
+
 .hobbie i {
 	padding: 10px;
 	font-size: 30px;
 	border: 2px solid;
 	border-radius: 50%;	
-}   
+} 
 
 .informationpersonnelle img {
 	padding: 20px;
-	height: 40%;
-	width: 40%
+	height: auto;
+	width: 150px;
+	border-radius: 50%;
 }
 
 span.gras {
 	font-weight: bold;   	
 }
 
-
-
-
-
+.photoprofil {
+	height: 100px;
+	width: 100px;
+	background: url(images/maphoto.jpg) no-repeat center center ;
+	background-size: cover;
+	border-radius: 50%;
+	margin: auto;
+}
+ 

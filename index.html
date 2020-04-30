@@ -14,13 +14,14 @@
 
 <body>
 	<div class="container">
-      
 		<div class="row mx-md">
            <!-- begin left col yes -->
-			<div class="col-4 informationpersonnelle">
-            <div id="monimage" class="text-center">
-               <img src="images/maphoto.jpg" class="rounded-circle" alt="photo-mini.jpp"/>
-            </div>
+			<div class="col-sm-4 col-md-4 col-xs-4 col-lg-4 informationpersonnelle">
+            <div class="espacelateral">
+           <!-- nouvelle photo -->
+               <figure class="photoprofil text-center "></figure>
+            </div> 
+            <!-- fin nouvelle photo -->  
             <div class="contact">
                <h4 class="text-center">CONTACT</h4>
             <div class="espacelateral">
@@ -42,8 +43,7 @@
                <p>
                   <span class="gras">Site web</span>
                   <br>
-                  <a href="https://sow-tech.github.io/projet2_cv/">
-                  Mon CV Web</a> 
+                  <a href="https://sow-tech.github.io/projet2_cv/"> Mon CV Web</a> 
                </p>
                <p>
                   <span class="gras">Skype</span>
@@ -51,7 +51,7 @@
                   Sowmouctar01 
                </p>
             </div> 
-            </div>
+         </div>
             <div class="apropos">
                <h4 class="text-center">À PROPOS DE MOI</h4>
             <div class="espacelateral">
@@ -63,21 +63,20 @@
             </div>
             <div class="hobbie">
                <h4 class="text-center">LOISIRS</h4>
-            <div class="espacelateral text-center">
-                <i class="fas fa-running mr-5"></i>
-                <i class="fas fa-futbol mr-5"></i>
-                <i class="fas fa-book-reader"></i>
-            </div>
-            </div>
-            <!--coucou -->
-         </div>
+               <div class="espacelateral text-center">
+                  <i class="fas fa-running mr-5"></i>
+                  <i class="fas fa-futbol mr-5"></i>
+                  <i class="fas fa-book-reader"></i>
+               </div>
+            </div>      
+      </div>
 
-         <!-- end left col -->
+         <!-- end left col information-->
 
          <!-- right col -->
-         <div class="col-8">
+         <div class="col-xs-8 col-sm-8 col-md-8">
             <!-- entete-->
-            <div class="entete">
+            <header class="entete"> 
                <h2> 
                   <span class="gras">SOW</span> 
                   Elhadj Mouctar
@@ -85,147 +84,156 @@
                <p>
                   <span class="gras">Dévelo</span>ppeur Web frontend
                </p>
-            </div>
+            </header> 
             <!-- fin entete-->
-            <div class="titreFormation">
+            
+            <section class="titreFormation">
                <h3>
                   <i class="fas fa-graduation-cap"></i> 
                   <span class="gras">FORMATION</span>
                </h3>  
-            </div>
+            </section>
 
             <!-- formation -->
 
-         <div class="row my-4">
-            <div class="col">
-               <p class="m-0"><img src="images/bullet1.png">2019 - 2020</p>
-               <p class="ml-4">Aix-en-Provence</p>
-            </div>
-            <div class="col"> 
-               <span class="gras">OPENCLASSROOMS</span>
-               <br>
-               Développement Web<br>
-               Html5, css3, boostrap, Git, Github.
-            </div>
-         </div>
-         <div class="row my-4">
-            <div class="col">
-               <p class="m-0"><img src="images/bullet.png">2017 - 2018</p>
-               <p class="ml-4">Aix-en-Provence</p>
-            </div>
-               <div class="col">
+            <section class="row my-4">
+               <div class="col premièreanneeformation">
+                  <p class="m-0"><img src="images/bullet1.png">   <span class="gras">2019 - 2020</span>
+                  </p>
+                  <p class="ml-4"><span class="gras">Aix-en-Provence</span>
+                  </p>
+               </div>
+               <div class="col premiereecoleformation"> 
+                  <span class="gras">OPENCLASSROOMS</span>
+                  <br>
+                  Développement Web<br>
+                  Html5, css3, boostrap, Git, Github.
+               </div>
+            </section>
+            <section class="row my-4">
+               <div class="col deuxiemeanneeformation">
+                  <p class="m-0"><img src="images/bullet.png"><span class="gras">2017 - 2018</span>
+                  </p>
+                  <p class="ml-4"><span class="gras">Aix-en-Provence</span>
+                  </p>
+               </div>
+               <div class="col deuxiemeecoleformation">
                   <span class="gras">Aix Marseille Université</span>
                   <br>
                   Diplôme Universitaire Gestion de la paie<br>
                   Variables de paie, DSN, Quadratus.
                </div>
-         </div>
+            </section>
          <!-- ajout Dyorh -->
-         <div class="row my-4">
-            <div class="col">
-               <p class="m-0"><img src="images/bullet.png">2016 - 2017</p>
-               <p class="ml-4">Aix-en-Provence</p>
-            </div>
-               <div class="col">
+         
+            <section class="row my-4">
+               <div class="col troisiemeanneeformation">
+                  <p class="m-0"><img src="images/bullet.png"><span class="gras">2016 - 2017</span>
+                  </p>
+                  <p class="ml-4"><span class="gras">Aix-en-Provence</span>
+                  </p>
+               </div>
+               <div class="col troisiemeecoleformation">
                   <span class="gras">Aix Marseille Université</span>
                   <br>
                   Dynamique des organisation, travail et RH<br>
                   Expertise, Relations professionnelles, GRH.
                </div>
-         </div>
-         <div class="row my-4">
-            <div class="col">
-               <p class="m-0"><img src="images/bullet.png">2015 - 2016
-               </p>
-               <p class="ml-4"> Aix-en-Provence
-               </p>
-            </div>
-            <div class="col">
-               <span class="gras">Aix Marseille Université</span> 
-               <br>
-               Expertise Sociologique de l'action Publique<br>
-               Évaluation des dispositifs publics, enquêtes. 
-            </div> 
+            </section>
+            <section class="row my-4">
+               <div class="col quatriemeanneeformation">
+                  <p class="m-0"><img src="images/bullet.png"><span class="gras">2015 - 2016</span>
+                  </p>
+                  <p class="ml-4"><span class="gras">Aix-en-Provence</span>
+                  </p>
+               </div>
+               <div class="col quatriemeecoleformation">
+                  <span class="gras">Aix Marseille Université</span> 
+                  <br>
+                  Expertise Sociologique de l'action Publique<br>
+                  Évaluation des dispositifs publics, enquêtes. 
+               </div>
+            </section>  
 
-
-         </div>
                   
                <!-- fin formation -->
 
-         <div class="tireExperience">
-            <h3><img src="images/bag.jpg" />
-               <span class="gras">EXPÉRIENCE PROFESSIONNELLE</span>
-            </h3>
-         </div>
+            <section class="titreExperience">
+               <h3><img src="images/bag.jpg" />
+                  <span class="gras">EXPÉRIENCE PROFESSIONNELLE</span>
+               </h3>
+            </section>
                <!-- debut experience -->
-         <div class="row my-4">
-            <div class="col">
-               <p class="m-0"><img src="images/bullet1.png">Juin 2018 - Novembre 2019</p>
-               <p class="ml-4">Aix-en-Provence</p>
-            </div>
-            <div class="col">
-               <span class="gras">LES DEUX GARÇONS</span>
-               <br>
-               Chargé des Ressources Humaines<br>
-               Administration du personnel, Santé, mutuelle.
-            </div>
-         </div>
-         <div class="row my-4">
-            <div class="col">
-               <p class="m-0"><img src="images/bullet.png">Mars 2017 - Septembre 2017</p>
-               <p class="ml-4">Aix-en-Provence</p>
-            </div> 
-            <div class="col">
-               <span class="gras">CO-ÉCO</span>
-               <br>
-               Chargé de missions RH<br>
-               Animation CSE, Recrutement, Formation.
-            </div>
-         </div>
-         <div class="row my-4">
-            <div class="col">
-               <p class="m-0"><img src="images/bullet.png">Avril 2016 - Juillet 2016</p>
-               <p class="ml-4">Aix-en-Provence</p>
-            </div>
-            <div class="col">
-               <span class="gras">COLLECTIF ROMS DE GARDANNE</span>
-               <br>
-               Chargé d'études<br>
-               Protocôle d'enquête, entretien, Rapport final. 
-            </div> 
-         </div>
+            <section class="row my-4">
+               <div class="col derniereexperience">
+                  <p class="m-0"><img src="images/bullet1.png"><span class="gras">Juin 2018 - Novembre 2019</span></p>
+                  <p class="ml-4"><span class="gras">Aix-en-Provence</span></p>
+               </div>
+               <div class="col derniereentreprise">
+                  <span class="gras">LES DEUX GARÇONS</span>
+                  <br>
+                  Chargé des Ressources Humaines<br>
+                  Administration du personnel, Santé, mutuelle.
+               </div>
+            </section>
+            <section class="row my-4">
+               <div class="col deuxiemeexperience">
+                  <p class="m-0"><img src="images/bullet.png"><span class="gras">Mars 2017 - Septembre 2017</span></p>
+                  <p class="ml-4"><span class="gras">Aix-en-Provence</span></p>
+               </div> 
+               <div class="col deuxiemeentreprise">
+                  <span class="gras">CO-ÉCO</span>
+                  <br>
+                  Chargé de missions RH<br>
+                  Animation CSE, Recrutement, Formation.
+               </div>
+            </section>
+            <section class="row my-4">
+               <div class="col premiereexperience">
+                  <p class="m-0"><img src="images/bullet.png"><span class="gras">Avril 2016 - Juillet 2016</span>
+                  </p>
+                  <p class="ml-4"><span class="gras">Aix-en-Provence</span>
+                  </p>
+               </div>
+               <div class="col premiereentreprise">
+                  <span class="gras">COLLECTIF ROMS DE GARDANNE</span>
+                  <br>
+                  Chargé d'études<br>
+                  Protocôle d'enquête, entretien, Rapport final. 
+               </div> 
+            </section>
                   <!--fin experience -->
 
 
                    <!-- recommandation -->
-         <div class="titreRecommandtion">
-            <h3><i class="far fa-edit"></i>
+            <div class="titreRecommandtion">
+               <h3><i class="far fa-edit"></i>
                <span class="gras">RECOMMANDATIONS</span>
-            </h3>   
-         </div>
-         <div class="row my-4">
-            <div class="col">
-               <p>
-                  <span class="gras">Franck BICHON</span>
-                  <br>
-                  Président SAS LES DEUX GARÇONS 
-                  <br>
-                  Téléphone: 06 32 22 23 99 
-                  <br>
-                  Email: franckbichon111@hotmail.com
-               </p>
-            </div> 
-            <div class="col">
-               <p>
-                  <span class="gras">Cécile FAURE</span>
-                  <br>
-                  Chargée de missions RH CO-ÉCO 
-                  <br>
-                  Téléphone: 06 17 58 45 91 
-                  <br>
-                  Email: gaia.cecile@gmail.com 
-               </p> 
+               </h3>   
             </div>
+            <div class="row my-4">
+               <div class="col">
+                  <p>
+                     <span class="gras">Franck BICHON</span>
+                     <br>
+                     Président SAS LES DEUX GARÇONS 
+                     <br>
+                     Téléphone: 06 32 22 23 99 
+                     <br>
+                     Email: franckbichon111@hotmail.com
+                  </p>
+               </div> 
+               <div class="col">
+                  <p>
+                     <span class="gras">Cécile FAURE</span>
+                     <br>
+                     Chargée de missions RH CO-ÉCO 
+                     <br>
+                     Téléphone: 06 17 58 45 91 
+                     <br>
+                     Email: gaia.cecile@gmail.com 
+                  </p> 
+               </div>
 
                
          </div>

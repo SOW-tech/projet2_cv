@@ -6,6 +6,7 @@
 div.informationpersonnelle {
 	padding: 0px;
 	background-color:  #FFC107;
+	text-align: center;
 }
 
 .entete p span{
@@ -51,11 +52,6 @@ h4 {
 	width: 150px;
 	border-radius: 50%;
 }
-
-span.gras {
-	font-weight: bold;   	
-}
-
 .photoprofil {
 	height: 100px;
 	width: 100px;
@@ -64,4 +60,10 @@ span.gras {
 	border-radius: 50%;
 	margin: auto;
 }
+
+span.gras {
+	font-weight: bold;   	
+}
+
+
  
